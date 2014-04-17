@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Fashion.master.cs" Inherits="DaveBrownPhotography.Fashion.DaveBrownPhotoMaster" %>
+<%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+    <title runat="server" id="title">Denver Photographer | Engagement | Denver Portrait Photographer | Commercial | Fashion </title>
+    <meta name="keywords" runat="server" id="metaKeywords" content="denver photographer, denver engagement photographer, denver portrait photographer, engagement, senior, commercial, colorado, family, fashion"/>
+    <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown is a Portrait Photographer who specializes in Engagement, Senior Portraits, Commercial, and Fashion Photography." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Facebook Open Graph -->
+	<!-- <meta property="og:image" content=""> -->
+    <meta property="og:site_name" content="Dave Brown Photography">
+    <meta property="og:description" content="Denver Portrait Photographer Dave Brown">
+	<meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.davebrownphotography.com/">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<!-- Stylesheets: Production -->
+
+		<link rel="stylesheet" href="../stylesheets/styles.css?42">
+		<!-- Skin Stylesheet -->
+		<link rel="stylesheet" href="../skin/skin.css?42">
+		<style>
+  
+		  /* Custom Icons */  
+		.links {
+        width: 260px;
+        height: 22px;
+        margin: 0 0 15px 0;
+        }
+
+        .links li { clear: none !important; }
+        .links a {
+        display: block;
+        text-indent: -5000px;
+        overflow: hidden;
+        width: 22px;
+        height: 22px;
+        margin: 0 -2px;
+        }
+
+        .links a[href*=twitter] { background: url('../skin/images/twitter.png'); }
+        .links a[href*=facebook] { background: url('../skin/images/facebook.png'); }
+		</style>
+		
+	<!-- Internet Exploder -->
+	<!--[if lt IE 7]><script type="text/javascript">window.location="http://usestandards.com/upgrade?url="+document.location.href;</script><![endif]-->	
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE 7]><link href="../stylesheets/ie7.css" media="screen" rel="stylesheet" /><![endif]-->
+	<!--[if IE]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
+    <script>
+
+        var session_id = "lr38tfq32p8tandh01rkle0cr2";
+        var page = "index";
+        var section = "";
+        var tag = "index";
+        var overlayWidth = 1000;
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?62"></script>
+    <script src="../javascripts/scripts.js?64"></script>
+</head>
+<body id="pageindex2" class="left" runat="server">
+    <div id="layout">
+	    <header>
+            <h1>
+                <a itemscope itemtype="http://schema.org/LocalBusiness" href="/">
+                    <span itemprop="name">Dave Brown: Photographer</span>
+                </a>
+                <div id="location">
+                    <span id="_address3" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="addressLocality">Denver</span> . <span itemprop="addressLocality">San Francisco</span> . <span itemprop="addressLocality">NY</span> 
+                    </span>
+                </div>
+		    </h1>
+		    <nav>
+			    <ul>
+				    <li><a href="Denver-Fashion-Photographer.aspx" title="Denver Fashion Photographer">Fashion Book I</a></li>
+				    <li><a href="Fashion-Photographer-Denver.aspx" title="Fashion Photographer Denver">Fashion Book II</a></li>
+				    <li><a href="Denver-Portrait-Photographer.aspx" title="Denver Portrait Photographer">Portrait</a></li>
+                    <li><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></li>
+				    <li><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></li>
+				    <li>&nbsp;</li>
+				    <li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>
+				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
+				    <li><a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About</a></li>
+			    </ul>
+		    </nav>
+	    </header>
+        <div id="scrollBarHelper" runat="server" style="position:fixed; top:auto; bottom:10px; left:20px;">Use the scrollbar here --></div>
+    	<div id="content">
+            <asp:ContentPlaceHolder ID="cphMain" runat="server" />
+    	</div>
+    <footer>
+		<ul class="links">
+			<li><a href="http://www.facebook.com/davebrownphotography" target="_blank" rel="external nofollow">facebook</a></li>
+			<li><a href="http://www.twitter.com/davebrownphotog" target="_blank" rel="external nofollow">twitter</a></li>
+	    </ul>
+         <p itemscope itemtype="http://schema.org/LocalBusiness" class="copyright">
+            phone. <span itemprop="telephone">303.949.68<span style="display:none; visibility:hidden;">x</span>89</span> 
+                        <br/>
+                        <br/>
+            email. <span itemprop="email" >info@davebrownpho<span style="display:none; visibility:hidden;">x</span>tography.com</span>
+                        <br/>
+                        <br/>
+            studio. <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">3501 Wazee Street</span> 
+                        <span itemprop="addressLocality">Denver</span>, 
+                        <span itemprop="addressRegion">CO</span> 
+                        <span itemprop="postalCode">80216</span>
+                    </span>
+             <br />
+             <br />
+             &copy; 2014 <span itemprop="name">Dave Brown Photography</span><br />
+        All Rights Reserved.</p>
+    </footer>
+</div>
+<!-- Javascripts -->
+<script>
+/* Custom Scripts  */
+    //rsn.uniformHeight(530);
+    $(document).ready(function () { rsn.resizeLayout(); });
+</script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9571004-2']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>
