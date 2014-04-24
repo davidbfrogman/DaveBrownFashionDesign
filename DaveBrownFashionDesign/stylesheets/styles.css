@@ -103,6 +103,9 @@ footer iframe.twitter-follow-button {
     margin-right: 5px;
     top: -1px;
 }
+
+
+
 body.left {
     width: 100%;
     margin: 0;
@@ -535,7 +538,7 @@ h5 {
     line-height: 1em;
     margin: 0 0 .7em;
 }
-h2 { }
+h2 {margin: 0 0 0 0; border:none; padding-top: 0px;}
 h3 { }
 p { margin: 0 0 1em }
 a { text-decoration: none }

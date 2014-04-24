@@ -69,17 +69,17 @@
                 </a>
                 <div id="location">
                     <span id="_address3" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="addressLocality">Denver</span> . <span itemprop="addressLocality">San Francisco</span> . <span itemprop="addressLocality">NY</span> 
+                        <span itemprop="addressLocality">Denver</span> . San Francisco . NY
                     </span>
                 </div>
 		    </h1>
 		    <nav>
 			    <ul>
-				    <li><a href="Denver-Fashion-Photographer.aspx" title="Denver Fashion Photographer">Fashion Book I</a></li>
-				    <li><a href="Fashion-Photographer-Denver.aspx" title="Fashion Photographer Denver">Fashion Book II</a></li>
-				    <li><a href="Denver-Portrait-Photographer.aspx" title="Denver Portrait Photographer">Portrait</a></li>
-                    <li><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></li>
-				    <li><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></li>
+				    <li><h2><a href="Denver-Fashion-Photographer.aspx" title="Denver Fashion Photographer">Fashion Book I</a></h2></li>
+				    <li><h2><a href="Fashion-Photographer-Denver.aspx" title="Fashion Photographer Denver">Fashion Book II</a></h2></li>
+				    <li><h2><a href="Denver-Portrait-Photographer.aspx" title="Denver Portrait Photographer">Portrait</a></h2></li>
+                    <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
+				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
 				    <li>&nbsp;</li>
 				    <li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>
 				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
