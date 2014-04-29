@@ -19,7 +19,7 @@ namespace DaveBrownFashionDesign.Utilities
         public static void RefreshFeedCache(object data)
         {
             RssReader rssReader = new RssReader();
-            CurrentFeed = rssReader.Retrieve("http://www.davebrownphotography.com/BlogInstall/index.php/feed");
+            CurrentFeed = rssReader.Retrieve("http://www.davebrownphotography.com/BlogInstall/feed/");
         }
     }
 }

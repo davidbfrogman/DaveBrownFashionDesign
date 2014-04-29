@@ -29,14 +29,14 @@ namespace DaveBrownPhotography.Controls
                     string itemsTemplateFormat = "<div class=\"blogItem\" ><a href=\"%Link%\" rel=\"nofollow\" > %Title% </a><div>%Description%</div></div>";
 
                     RssHtmlMaker htmlMaker = new RssHtmlMaker();
-                    htmlMaker.MaxItems = 3;
+                    htmlMaker.MaxItems = 5;
 
                     Literal lit = new Literal();
                     lit.Text = htmlMaker.GetHtmlContents(CurrentRssFeed.CurrentFeed, mainTemplate, itemsTemplateFormat, string.Empty);
                     plcBlogPosts.Controls.Add(lit);
                 }
             }
-            catch
+            catch(Exception ex)
             {
             }
         }
