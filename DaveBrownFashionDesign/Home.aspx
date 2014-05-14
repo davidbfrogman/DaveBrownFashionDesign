@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="DaveBrownPhotography.Fashion.Home" MasterPageFile="Fashion.Master" %>
-<%@ Register Src="~/Controls/RotatingImageBanner.ascx" TagName="RotatingImageBanner" TagPrefix="dvp" %>
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
