@@ -25,7 +25,7 @@ namespace DaveBrownPhotography.Fashion
         {
             base.Page_Load(sender, e);
             ((IDaveBrownPhotoMaster)(this.Master)).PageTitle = "Denver Fashion Photographer, Fashion Photographer in Denver Colorado";
-            ((IDaveBrownPhotoMaster)(this.Master)).MetaDescription = "Denver Fashion Photographer Dave Brown is a Denver Portrait Photographer who specializes in headshots, fine art photography, and fashion photography.";
+            ((IDaveBrownPhotoMaster)(this.Master)).MetaDescription = "Fashion photographer, Dave Brown has been a professional photographer for over 10 years specializing in Fashion, Portraits, and Commercial Photography.";
             ((IDaveBrownPhotoMaster)(this.Master)).MetaKeywords = "denver photographer, fashion photography denver, denver fashion photographer, denver fashion photographer, fashion photography,denver headshots,headshots in denver";
         }
     }
