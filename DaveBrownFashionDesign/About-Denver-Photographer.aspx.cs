@@ -18,6 +18,7 @@ namespace DaveBrownPhotography
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            int i = 0;
             ((DaveBrownPhotoMaster)(this.Master)).PageTitle = "About Denver Photographer Dave Brown";
             ((DaveBrownPhotoMaster)(this.Master)).MetaDescription = "Dave Brown talks about what photography means to him, his approach to the photographic process, and where his photography comes from.";
             ((DaveBrownPhotoMaster)(this.Master)).MetaKeywords = "denver photographer, denver engagement photographer,denver portrait phototgrapher, about, about Dave Brown Photography";

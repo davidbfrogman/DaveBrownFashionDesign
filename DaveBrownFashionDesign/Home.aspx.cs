@@ -18,7 +18,6 @@ namespace DaveBrownPhotography.Fashion
         //Adding comment here.
         protected void Page_Load(object sender, EventArgs e)
         {
-            int i = 0;
             ((IDaveBrownPhotoMaster)(this.Master)).BodyControl.Attributes["class"] = " bleed left";
             ((DaveBrownPhotoMaster)(this.Master)).ScrollBarHelper.Visible = false;
         }

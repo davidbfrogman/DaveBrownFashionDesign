@@ -284,6 +284,7 @@
     <Content Include="fonts\questrial-regular-webfont.ttf" />
     <Content Include="fonts\questrial-regular-webfont.woff" />
     <None Include="Properties\PublishProfiles\Dave Brown Photography Production.pubxml" />
+    <None Include="Properties\PublishProfiles\Dave Brown Production.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
