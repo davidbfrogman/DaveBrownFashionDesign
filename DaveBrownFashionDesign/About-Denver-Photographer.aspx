@@ -14,10 +14,12 @@
      <p>
          Nationally and Internationally Published Photographer<br />
          Publications:<br />
-         Inked Girls Magazine <br />
+         Jute Magazine<br />
+         Rhapsody Magazine for United Airlines<br />
         Fashion Couture Magazine <br />
         5280 <br />
         Peppermint Mag <br />
+         Inked Girls Magazine <br />
         Stilo Mag <br />
         La Damme Magazine <br />
         Pepple Magazine <br />
