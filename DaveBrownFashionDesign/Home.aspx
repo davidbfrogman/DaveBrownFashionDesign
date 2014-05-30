@@ -28,7 +28,8 @@ After I started shooting weddings I had the confidence to move my photography in
 </p>
         <h2>Corprate Headshots</h2>
 <p>
-Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.
+Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.  You can check out my commercial 
+    photography work here <li><h2><a href="Denver-Commercial-Photographer.aspx" title="Denver Commercial Photographer">Corporate Headshots</a></h2></li>
 </p>
         <h2>Fashion Photography</h2>
 <p>

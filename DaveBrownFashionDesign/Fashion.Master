@@ -81,7 +81,7 @@
                     <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
 				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
 				    <li>&nbsp;</li>
-				    <li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>
+				    <%--<li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>--%>
 				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
 				    <li><a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About</a></li>
 			    </ul>

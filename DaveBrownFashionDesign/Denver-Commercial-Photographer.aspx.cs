@@ -21,7 +21,7 @@ namespace DaveBrownPhotography
         public override string ImageDirectory { get{return "Commercial";}}
         public override HtmlGenericControl imageHolderControl { get { return this.ulImageHolder; } }
         public override HtmlGenericControl BlogHolder { get { return this.divBlogHolder; } }
-
+        int i = 0;
         protected override void Page_Load(object sender, EventArgs e)
         {
             base.Page_Load(sender, e);
@@ -31,3 +31,4 @@ namespace DaveBrownPhotography
         }
     }
 }
+
