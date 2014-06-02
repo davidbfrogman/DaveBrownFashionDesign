@@ -22,26 +22,27 @@
 		<!-- Skin Stylesheet -->
 		<link rel="stylesheet" href="../skin/skin.css?42">
 		<style>
-  
+   
 		  /* Custom Icons */  
-		.links {
+	    .links {
         width: 260px;
         height: 22px;
         margin: 0 0 15px 0;
         }
 
-        .links li { clear: none !important; }
-        .links a {
-        display: block;
-        text-indent: -5000px;
-        overflow: hidden;
-        width: 22px;
-        height: 22px;
-        margin: 0 -2px;
+        .links li { clear: none !important; 
+                    margin:0px 0px 0px 0px;
         }
+            
+        .links li a {
+            width:22px;
+            height:22px;
+            padding: 0px 0px 0px 0px;
+            margin:0px 0px 0px 0px;
+        } 
 
-        .links a[href*=twitter] { background: url('../skin/images/twitter.png'); }
-        .links a[href*=facebook] { background: url('../skin/images/facebook.png'); }
+        /*.links a[href*=twitter] { background: url('../skin/images/twitter.png'); }
+        .links a[href*=facebook] { background: url('../skin/images/facebook.png'); }*/
 		</style>
 		
 	<!-- Internet Exploder -->
@@ -57,8 +58,20 @@
         var tag = "index";
         var overlayWidth = 1000;
     </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?62"></script>
+    <%--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?62"></script>--%>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="../javascripts/scripts.js?64"></script>
+<%--    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>--%>
+    <script>
+        $(function () {
+            $("#liEditorial").accordion({
+                collapsible: true,
+                active: false
+            });
+        });
+  </script>
 </head>
 <body id="pageindex2" class="left" runat="server">
     <div id="layout">
@@ -77,6 +90,15 @@
 			    <ul>
 				    <li><h2><a href="Denver-Fashion-Photographer.aspx" title="Denver Fashion Photographer">Fashion Book I</a></h2></li>
 				    <li><h2><a href="Fashion-Photographer-Denver.aspx" title="Fashion Photographer Denver">Fashion Book II</a></h2></li>
+				    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
+                        <div>
+                            <ul>
+                                <li><h2><a href="Denver-Editorial-Photographer.aspx" title="Denver Editorial Photographer">Editorial 1</a></h2></li>
+                                <li><h2><a href="Editorial-Photographer-in-Denver.aspx" title="Editorial Photographer Denver">Editorial 2</a></h2></li>
+                                <li><h2><a href="Editorial-Photographer.aspx" title="Denver Editorial Photographer">Editorial 3</a></h2></li>
+                            </ul>
+                        </div>
+				    </li>
 				    <li><h2><a href="Denver-Portrait-Photographer.aspx" title="Denver Portrait Photographer">Portrait</a></h2></li>
                     <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
 				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
@@ -85,35 +107,35 @@
 				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
 				    <li><a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About</a></li>
 			    </ul>
+                <footer>
+                <ul class="links">
+			        <li><a href="http://www.facebook.com/davebrownphotography" target="_blank" rel="external nofollow" ><img src="../skin/images/twitter.png" /></a></li>
+			        <li><a href="http://www.twitter.com/davebrownphotog" target="_blank" rel="external nofollow" ><img src="../skin/images/facebook.png" /></a></li>
+	            </ul>
+                 <p itemscope itemtype="http://schema.org/LocalBusiness" class="copyright">
+                    phone. <span itemprop="telephone">303.949.68<span style="display:none; visibility:hidden;">x</span>89</span> 
+                                <br/>
+                                <br/>
+                    email. <span itemprop="email" >info@davebrownpho<span style="display:none; visibility:hidden;">x</span>tography.com</span>
+                                <br/>
+                                <br/>
+                    studio. <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span itemprop="streetAddress">3501 Wazee Street</span> 
+                                <span itemprop="addressLocality">Denver</span>, 
+                                <span itemprop="addressRegion">CO</span> 
+                                <span itemprop="postalCode">80216</span>
+                            </span>
+                     <br />
+                     <br />
+                     &copy; 2014 <span itemprop="name">Dave Brown Photography</span><br />All Rights Reserved.</p>
+                </footer>
 		    </nav>
+
 	    </header>
         <div id="scrollBarHelper" runat="server" style="position:fixed; top:auto; bottom:10px; left:20px;">Use the scrollbar here --></div>
     	<div id="content">
             <asp:ContentPlaceHolder ID="cphMain" runat="server" />
     	</div>
-    <footer>
-		<ul class="links">
-			<li><a href="http://www.facebook.com/davebrownphotography" target="_blank" rel="external nofollow">facebook</a></li>
-			<li><a href="http://www.twitter.com/davebrownphotog" target="_blank" rel="external nofollow">twitter</a></li>
-	    </ul>
-         <p itemscope itemtype="http://schema.org/LocalBusiness" class="copyright">
-            phone. <span itemprop="telephone">303.949.68<span style="display:none; visibility:hidden;">x</span>89</span> 
-                        <br/>
-                        <br/>
-            email. <span itemprop="email" >info@davebrownpho<span style="display:none; visibility:hidden;">x</span>tography.com</span>
-                        <br/>
-                        <br/>
-            studio. <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="streetAddress">3501 Wazee Street</span> 
-                        <span itemprop="addressLocality">Denver</span>, 
-                        <span itemprop="addressRegion">CO</span> 
-                        <span itemprop="postalCode">80216</span>
-                    </span>
-             <br />
-             <br />
-             &copy; 2014 <span itemprop="name">Dave Brown Photography</span><br />
-        All Rights Reserved.</p>
-    </footer>
 </div>
 <!-- Javascripts -->
 <script>

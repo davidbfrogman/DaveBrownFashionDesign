@@ -8,7 +8,7 @@
             I’m not like most photographers, I’m a bit more candid. artistic. fun. real. I’m all about allowing you to be exactly who you are…
         </p>
 
-        <p>I specialize in lifestyle portraiture. I especially love working with non-traditional, off-beat, creative, unique, far-out, interesting, and totally awesome people, couples. I find it so rewarding to embrace our extreme differences while celebrating our common denominator. life. If you feel this is you, and you want artistically amazing photos, well, then I am your perfect photographer&nbsp;:)
+        <p>I specialize in portraiture. I especially love working with non-traditional, off-beat, creative, unique, far-out, interesting, and totally awesome people, couples. I find it so rewarding to embrace our extreme differences while celebrating our common denominator. life. If you feel this is you, and you want artistically amazing photos, well, then I am your perfect photographer&nbsp;:)
         </p>
 
      <p>
