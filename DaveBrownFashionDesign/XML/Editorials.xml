@@ -13,8 +13,16 @@
     <EditorialName>Wanderlust-For-Ellements-Magazine</EditorialName>
     <ImageDirectory>Wanderlust</ImageDirectory>
     <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Two Models for the cover photography of Ellements Magazine</PageTitle>
-    <MetaDescription>Denver, Colorado based band Photographer Dave Brown worked with Ellements magazine to put together a fun summer editorial that featured two well known models.</MetaDescription>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Ellements magazine to put together a fun summer editorial that featured two well known models.</MetaDescription>
     <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Wanderlust, Sun, Fashion</MetaKeywords>
     <WriteupDivId>divWanderlust</WriteupDivId>
+  </Editorial>
+  <Editorial>
+    <EditorialName>Lightdance-For-Fashion-Couture-Magazine</EditorialName>
+    <ImageDirectory>Lightdance</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who luccia for fashion couture magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Fashion couture magazine to put together a creative lighting editorial with sam martucci.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Lighdance, color, lighting</MetaKeywords>
+    <WriteupDivId>divLightdance</WriteupDivId>
   </Editorial>
 </Editorials>
