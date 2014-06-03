@@ -87,6 +87,11 @@ table.Contact
     nav { top: 68px;left: 341px;background-image: url(/skin/images/bg-navigation.jpg?4);background-color: transparent; }
 	.left nav { top: 140px;left: 20px; }
 	nav a { font-family: QuestrialRegular, Arial;font-size: 14px;font-weight: normal;text-transform: uppercase;letter-spacing: 2px;padding-left: 12px;padding-right: 12px;padding-top: 5px;padding-bottom: 5px;color: #999999;background-color: transparent;border-radius: 0px; }
+nav h3 a {
+    font-size:10px;
+    padding: 0px 0px 0px 0px;
+
+}
 	nav a:hover,
 	.section-about nav .about a,
 	.section-archive nav .archive a,

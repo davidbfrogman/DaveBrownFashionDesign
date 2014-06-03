@@ -70,6 +70,7 @@
     <Content Include="Controls\Menu.ascx" />
     <Content Include="Controls\QuickContact.ascx" />
     <Content Include="Controls\RotatingImageBanner.ascx" />
+    <Content Include="Denver-Editorial-Photographer.aspx" />
     <Content Include="Engagement-Photography.aspx" />
     <Content Include="Denver-Band-Music-Photographer.aspx" />
     <Content Include="Denver-Food-Photographer.aspx" />
@@ -97,6 +98,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="XML\AffiliateURL.xml" />
+    <Content Include="XML\Editorials.xml" />
     <Content Include="XML\MenuLevel1.xml" />
     <Content Include="XML\MenuLevel2.xml" />
     <Content Include="XML\Menus.xml" />
@@ -163,6 +165,13 @@
     </Compile>
     <Compile Include="Controls\RotatingImageBanner.ascx.designer.cs">
       <DependentUpon>RotatingImageBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Editorial-Photographer.aspx.cs">
+      <DependentUpon>Denver-Editorial-Photographer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Editorial-Photographer.aspx.designer.cs">
+      <DependentUpon>Denver-Editorial-Photographer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Engagement-Photography.aspx.cs">
       <DependentUpon>Engagement-Photography.aspx</DependentUpon>

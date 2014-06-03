@@ -23,6 +23,11 @@ namespace DaveBrownPhotography.Fashion
             }
         }
 
+        public ContentPlaceHolder MainContentPlaceHolder
+        {
+            get { return cphMain; }
+        }
+
         public HtmlGenericControl ScrollBarHelper
         {
             get { return scrollBarHelper; }

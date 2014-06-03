@@ -41,6 +41,11 @@
             margin:0px 0px 0px 0px;
         } 
 
+        h2
+        {
+            outline:none;
+        }
+
         /*.links a[href*=twitter] { background: url('../skin/images/twitter.png'); }
         .links a[href*=facebook] { background: url('../skin/images/facebook.png'); }*/
 		</style>
@@ -93,9 +98,10 @@
 				    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
                         <div>
                             <ul>
-                                <li><h2><a href="Denver-Editorial-Photographer.aspx" title="Denver Editorial Photographer">Editorial 1</a></h2></li>
-                                <li><h2><a href="Editorial-Photographer-in-Denver.aspx" title="Editorial Photographer Denver">Editorial 2</a></h2></li>
-                                <li><h2><a href="Editorial-Photographer.aspx" title="Denver Editorial Photographer">Editorial 3</a></h2></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Wanderlust-For-Ellements-Magazine" title="Wanderlust for Ellements Magazine">Wanderlust</a></h3></li>
+                                <li><h3><a href="Editorial-Photographer-in-Denver.aspx" title="Editorial Photographer Denver">Editorial 2</a></h3></li>
+                                <li><h3><a href="Editorial-Photographer.aspx" title="Denver Editorial Photographer">Editorial 3</a></h3></li>
                             </ul>
                         </div>
 				    </li>

@@ -133,6 +133,10 @@ body.left {
     clear: left;
     margin-bottom: 10px;
 }
+.left nav li div {
+    clear: left;
+    margin-bottom: 0px;
+}
 .left nav .galleries { margin-bottom: 0 }
 .left footer {
     width: 210px !important;
@@ -196,6 +200,7 @@ nav {
     z-index: 91;
 }
 nav ul { float: left }
+nav div ul { float: left; margin-top:10px;}
 nav li {
     float: left;
     margin: 0 5px;
@@ -537,7 +542,7 @@ h5 {
     margin: 0 0 .7em;
 }
 h2 {margin: 0 0 0 0; border:none; padding-top: 0px;}
-h3 { }
+h3 {margin: 5px 5px 5px 25px; }
 p { margin: 0 0 1em }
 a { text-decoration: none }
 .body ul {

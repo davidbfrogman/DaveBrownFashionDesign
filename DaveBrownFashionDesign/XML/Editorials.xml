@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Editorials>
+  <Editorial>
+    <EditorialName>Lindsey-Vonn-For-Rhapsody-Magazine</EditorialName>
+    <ImageDirectory>LindseyVonn</ImageDirectory>
+    <HeaderTitle>Lindesy Vonn Editorial Shoot For Rhapsody Magazine</HeaderTitle>
+    <PageTitle>Dave Brown is a Denver Fashion Photographer, and Editorial Photographer who shot Lindsey Vonn for Rhapsody Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based editorial Photographer Dave Brown worked with Rhapsody Magazine for a piece in their upcoming issue about overcoming adversity.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Lindsey Vonn</MetaKeywords>
+    <WriteupDivId>divLindseyVonn</WriteupDivId>
+  </Editorial>
+  <Editorial>
+    <EditorialName>Wanderlust-For-Ellements-Magazine</EditorialName>
+    <ImageDirectory>Wanderlust</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Two Models for the cover photography of Ellements Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based band Photographer Dave Brown worked with Ellements magazine to put together a fun summer editorial that featured two well known models.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Wanderlust, Sun, Fashion</MetaKeywords>
+    <WriteupDivId>divWanderlust</WriteupDivId>
+  </Editorial>
+</Editorials>
