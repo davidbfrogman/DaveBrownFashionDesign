@@ -31,31 +31,13 @@ namespace DaveBrownPhotography {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ulImageHolder;
         
         /// <summary>
-        /// divLindseyVonn control.
+        /// plcWritup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divLindseyVonn;
-        
-        /// <summary>
-        /// divWanderlust control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divWanderlust;
-        
-        /// <summary>
-        /// divLightdance control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divLightdance;
+        protected global::System.Web.UI.WebControls.PlaceHolder plcWritup;
         
         /// <summary>
         /// divBlogHolder control.

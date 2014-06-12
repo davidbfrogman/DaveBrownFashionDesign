@@ -58,9 +58,11 @@ namespace DaveBrownPhotography
             base.Page_Load(sender, e);
 
             DataRow drCurrentEditorial = CurrentEditorial();
-            //This means we've found our row, so now we need to set everything.
-            ((DaveBrownPhotoMaster)(this.Master)).MainContentPlaceHolder.FindControl(drCurrentEditorial["WriteupDivId"].ToString()).Visible = true;
             lblH2Title.Text = drCurrentEditorial["HeaderTitle"].ToString();
+
+            Literal lit = new Literal();
+            lit.Text = drCurrentEditorial["Writeup"].ToString();
+            plcWritup.Controls.Add(lit);
 
             ((DaveBrownPhotoMaster)(this.Master)).PageTitle = drCurrentEditorial["PageTitle"].ToString();
             ((DaveBrownPhotoMaster)(this.Master)).MetaDescription = drCurrentEditorial["MetaDescription"].ToString();

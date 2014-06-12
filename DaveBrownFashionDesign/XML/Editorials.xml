@@ -8,6 +8,38 @@
     <MetaDescription>Denver, Colorado based editorial Photographer Dave Brown worked with Rhapsody Magazine for a piece in their upcoming issue about overcoming adversity.</MetaDescription>
     <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Lindsey Vonn</MetaKeywords>
     <WriteupDivId>divLindseyVonn</WriteupDivId>
+    <Writeup>
+     <![CDATA[ 
+     <h1>Lindsey Vonn for the cover of Rhapsody Magazine</h1>
+      <p>
+          I had an awesome opportunity to shoot Lindsey Vonn for an editorial in Rhapsody Magazine. I was super excited to get to work with my first big star, and we got some amazing shots for the magazine.
+      </p>
+      <p>
+          I was actually down in Austin when I got the call that Rhapsody wanted me to shoot their cover story. I kinda freaked out a little bit. It actually took me a little while before I was convinced that I could handle the job. I had to call a few people to convince me I'd be crazy not to take a cover story.
+      </p>
+      <p>
+          After working out all the details for the shoot I agreed to show up a bit early to do some location scouting. We were shooting at the Ritz Carlton in Vail. Which was an amazing place. I can only imagine how expensive it is to live there. The early part of the morning was spent walking around with the creative director on set, talking through what they would want to do with the shots. The mood that they were going for. They wanted it to be more of a fashion shoot with warm lighting, perfect for my style.
+      </p>
+      <p>
+          I had never worked on a project this big. Hair, makeup, wardrobe stylist, writer, creative director, photography editor, assistants, handlers, it was a huge ordeal. Which probably explains why we started so late. That's ok, though I think some of my favorite shots from the shoot only happened because we started so late.
+      </p>
+      <p>
+          We started the day in her own gondola. I know crazy right? She's got her own gondola, that they put on the line just for her, and this shoot. I have to say when the shoot started I was a bit worried. We started shooting, and I didn't feel any connection from her. She seemed pretty good at posing, and stuff, but there wasn't much of a connection. To her, this was just another shoot. She had 3 that day alone.
+      </p>
+      <p>
+          Once we got in the gondola though it was a totally different story. I got to ask her about the broncos game she had gone to the night before, and suddenly she opened up. We talked about how hard it is to not drink any beer, because at the time she was training hard for the Olympics, but she was funny and energized, and a total doll to work with.
+      </p>
+      <p>
+          After the gondola, we moved onto shooting in one of the giant suites at the Ritz. To say the place was gorgeous was an understatement. We had a blast putting her in all different kinds of outfits and getting interesting looks out of her.
+      </p>
+      <p>
+          At the end we did some shots in a makeshift studio. They were thinking they were going to use those ones for the cover, but we ended up going in a different direction. They ended up using some of the sunset shots, which I totally loved for the cover.
+      </p>
+      <p>
+          Overall I was extremely happy with the way the shoot went, and I certainly learned plenty about being under that kind of pressure. It was a complete blast to shoot something that big, and I'm excited for the next time I get to work on a shoot that big.
+      </p>
+      ]]>
+  </Writeup>
   </Editorial>
   <Editorial>
     <EditorialName>Wanderlust-For-Ellements-Magazine</EditorialName>
@@ -16,13 +48,69 @@
     <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Ellements magazine to put together a fun summer editorial that featured two well known models.</MetaDescription>
     <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Wanderlust, Sun, Fashion</MetaKeywords>
     <WriteupDivId>divWanderlust</WriteupDivId>
+    <Writeup />
   </Editorial>
   <Editorial>
     <EditorialName>Lightdance-For-Fashion-Couture-Magazine</EditorialName>
     <ImageDirectory>Editorial/Lightdance</ImageDirectory>
     <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who luccia for fashion couture magazine</PageTitle>
-    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Fashion couture magazine to put together a creative lighting editorial with sam martucci.</MetaDescription>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Fashion couture magazine to put together a creative lighting editorial with sam martucci and Luccia.</MetaDescription>
     <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Lighdance, color, lighting</MetaKeywords>
     <WriteupDivId>divLightdance</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Firestarter-For-IMute-Magazine</EditorialName>
+    <ImageDirectory>Editorial/Firestarter</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Eva for IMute Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Fashion couture magazine to put together a shoot about a bad girl walking through the streets.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, Sunlit, lighting, sunset</MetaKeywords>
+    <WriteupDivId>divFirestarter</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Milan-On-My-Lips-For-Raine-Magazine</EditorialName>
+    <ImageDirectory>Editorial/MilanOnMyLips</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shotfor Raine Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Raine Magazine magazine to put together a shoot with a bit of love and nostalgia.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, clothes, fashion, couture</MetaKeywords>
+    <WriteupDivId>divMilan</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Can-I-Stay-A-While-For-Jute-Magazine</EditorialName>
+    <ImageDirectory>Editorial/CanIStayaWhile</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Kora Amundsen for a fashion set in Jute Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Jute to put together a shoot with a seedy motel vibe</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, motel, seedy, sexy</MetaKeywords>
+    <WriteupDivId>divCanIStayAWhile</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Pale-Fire-For-Glacier-Magazine</EditorialName>
+    <ImageDirectory>Editorial/PaleFire</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Manda Lee Hesterly for Glacier Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with glacier to put together a shoot with a pretty girl on fire.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, pale, fire</MetaKeywords>
+    <WriteupDivId>divPaleFire</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Femme-Au-Foyer-For-Jute-Magazine</EditorialName>
+    <ImageDirectory>Editorial/FemmeAuFoyer</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Megan Smith for Jute Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Jute to put together a shoot about housewife who was tired of it all.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, housewife, french, fashion</MetaKeywords>
+    <WriteupDivId>divFemme</WriteupDivId>
+    <Writeup />
+  </Editorial>
+  <Editorial>
+    <EditorialName>Never-Going-Home-For-Jute-Magazine</EditorialName>
+    <ImageDirectory>Editorial/NeverGoingHome</ImageDirectory>
+    <PageTitle>Dave Brown is a Denver Editorial Photographer Photographer who shot Madi for Jute Magazine</PageTitle>
+    <MetaDescription>Denver, Colorado based Photographer Dave Brown worked with Jute to put together a shoot about a young runaway.</MetaDescription>
+    <MetaKeywords>Denver, Editorial, Photogrpaher, Commercial, Print, Published, young, runaway, kid, fashion</MetaKeywords>
+    <WriteupDivId>divNevergoinghome</WriteupDivId>
+    <Writeup />
   </Editorial>
 </Editorials>

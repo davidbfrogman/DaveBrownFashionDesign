@@ -5,7 +5,7 @@ CodeBehind="Denver-Editorial-Photographer.aspx.cs" Inherits="DaveBrownPhotograph
 <script type="text/javascript">
     $(document).ready(function () {
         $("#liEditorial").accordion({
-            active: 0,
+            active: 0
         });
     });
 </script>
@@ -15,33 +15,11 @@ CodeBehind="Denver-Editorial-Photographer.aspx.cs" Inherits="DaveBrownPhotograph
     </ul>
 </div>
 <h3>&nbsp;</h3>
-<div runat="server" id="divLindseyVonn" visible="false">
-    <p>
-        <br />
-Lindsey Vonn for Vail resorts.
-        </p>
-        <p>
-            Please feel free to <a href="Contact.aspx" rel="nofollow">contact</a> me for my rates.
-        </p>
-</div>
-<div runat="server" id="divWanderlust" visible="false">
-    <p>
-        <br />
-Wanderlust writeup
-        </p>
-        <p>
-            Please feel free to <a href="Contact.aspx" rel="nofollow">contact</a> me for my rates.
-        </p>
-</div>
-<div runat="server" id="divLightdance" visible="false">
-    <p>
-        <br />
-Lightdance writeup with luccia
-        </p>
-        <p>
-            Please feel free to <a href="Contact.aspx" rel="nofollow">contact</a> me for my rates.
-        </p>
+<div>
+    <asp:placeholder runat="server" id="plcWritup" />
 </div>
 <div id="divBlogHolder" runat="server" />
-
+        <p>
+            Please feel free to <a href="Contact.aspx" rel="nofollow">contact</a> me for my rates.
+        </p>
 </asp:Content>

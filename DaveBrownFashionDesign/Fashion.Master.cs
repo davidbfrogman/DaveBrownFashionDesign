@@ -57,21 +57,6 @@ namespace DaveBrownPhotography.Fashion
             }
         }
 
-        //public bool IsContactBannerVisible
-        //{
-        //    get { return this.dvpContactFooter.Visible; }
-        //    set { this.dvpContactFooter.Visible = value; }
-        //}
-
-        //public bool IsRotatingImageBannerVisible
-        //{
-        //    get { return this.ctlRotatingImageBanner.Visible; }
-        //    set
-        //    {
-        //        this.ctlRotatingImageBanner.Visible = value;
-        //    }
-        //}
-
         protected void Page_Load(object sender, EventArgs e)
         {
         }
