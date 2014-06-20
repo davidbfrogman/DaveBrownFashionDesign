@@ -12,6 +12,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 using System.IO;
 using System.Collections.Generic;
+using DaveBrownFashionDesign.Utilities;
 
 namespace DaveBrownPhotography
 {
@@ -32,7 +33,7 @@ namespace DaveBrownPhotography
             List<FileInfo> files = rgFiles.ToList<FileInfo>();
             if (ShuffleFiles)
             {
-                files = MixList<FileInfo>(files);
+                files = new Randomizer().MixList<FileInfo>(files);
             }
 
             int i = 1;
@@ -57,22 +58,6 @@ namespace DaveBrownPhotography
             }
 
             BlogHolder.Controls.Add(LoadControl("~/Controls/LatestBlogPosts.ascx"));
-        }
-
-        private List<E> MixList<E>(List<E> inputList)
-        {
-            List<E> randomList = new List<E>();
-
-            Random r = new Random();
-            int randomIndex = 0;
-            while (inputList.Count > 0)
-            {
-                randomIndex = r.Next(0, inputList.Count); //Choose a random object in the list
-                randomList.Add(inputList[randomIndex]); //add it to the new, random list
-                inputList.RemoveAt(randomIndex); //remove to avoid duplicates
-            }
-
-            return randomList; //return the new random list
         }
     }
 }

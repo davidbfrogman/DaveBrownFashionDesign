@@ -69,6 +69,7 @@
     <script src="../javascripts/scripts.js?84"></script>
     <script src="javascripts/imagesloaded.pkgd.min.js"></script>
     <script src="javascripts/masonry.pkgd.min.js"></script>
+    <script src="javascripts/spin.min.js"></script>
     <script>
         $(function () {
             $("#liEditorial").accordion({
