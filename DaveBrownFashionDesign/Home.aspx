@@ -2,10 +2,44 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <div id="billboard" class="loading">
-        <img src="/Images/FullHomeLayout/DSC_5844-Edit.jpg" alt="Denver Photographer" style="left:250px;" >
+<%--    <div id="billboard" class="loading">
+        //<img src="/Images/FullHomeLayout/DSC_5844-Edit.jpg" alt="Denver Photographer" style="left:250px;" >
+        <img src="/Images/Masonry/_DSC1049-Edit.jpg" alt="Denver Fashion Photographer"/>
+        <img src="/Images/Masonry/_DSC1289-Edit.jpg" alt="Denver Fashion Photographer"/>
+        <img src="/Images/Masonry/_DSC1626-Edit.jpg" alt="Denver Fashion Photographer"/>
+        <img src="/Images/Masonry/_DSC1200-Edit.jpg" alt="Denver Fashion Photographer"/>
+        <img src="/Images/Masonry/_DSC1474-Edit.jpg" alt="Denver Fashion Photographer"/>
+    </div>--%>
+    <script type="text/javascript">
+        $(function () {
+            var $container = $('#divMasonryContainer');
+            // initialize Masonry after all images have loaded  
+            $container.imagesLoaded(function () {
+                $container.masonry(
+                    {
+                        columnWidth: 0,
+                        itemSelector: '.homePageImage'
+                    });
+            });
+        });
+    </script>
+    <style>
+        .homePageImage { width: 100px;margin: 2px; }
+    </style>
+    <div id="divMasonryContainer">
+        <img class="homePageImage" src="/Images/Masonry/_DSC1049-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC1289-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC1626-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC1200-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC1474-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4104-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4126-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4169-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4278-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4448-Edit.jpg" alt="Denver Fashion Photographer" />
+        <img class="homePageImage" src="/Images/Masonry/_DSC4425-Edit.jpg" alt="Denver Fashion Photographer" />
     </div>
-    <div style="position:absolute; top:1500px; left:0px;"><dbp:LatestBlogPosts runat="server" ID="latestBlogs"/>
+    <div style="position:absolute; top:1500px; left:150px;"><dbp:LatestBlogPosts runat="server" ID="latestBlogs"/>
         <h2>Commercial Photography</h2>
 <p>
  Well it's certainly been a crazy ride on this whole photography thing. My first client was a building downtown. Now while I was only tasked with taking pictures of the building, I learned early on that pleasing your client is of utmost importance. I took that first commercial gig as an opportunity to wow my client. I gave them shots that went above and beyond what they asked for. Initially they just wanted images that captured the building, but I took the time to stay late, and get really amazing images with a long shutter at night. This gave them a modern feel, and captured a bit of that city aspect. That's what I love about photography something can change so drastically from moment to moment. Sunlit, or at night, it's wildly different.

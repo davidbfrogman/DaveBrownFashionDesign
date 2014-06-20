@@ -75,6 +75,8 @@
     <Content Include="Denver-Band-Music-Photographer.aspx" />
     <Content Include="Denver-Food-Photographer.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="javascripts\imagesloaded.pkgd.min.js" />
+    <Content Include="javascripts\masonry.pkgd.min.js" />
     <Content Include="RefreshBlog.aspx" />
     <Content Include="Denver-Fashion-Photographer.aspx" />
     <Content Include="Global.asax" />

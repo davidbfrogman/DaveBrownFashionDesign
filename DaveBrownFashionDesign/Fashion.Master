@@ -67,6 +67,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?84"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js?84"></script>
     <script src="../javascripts/scripts.js?84"></script>
+    <script src="javascripts/imagesloaded.pkgd.min.js"></script>
+    <script src="javascripts/masonry.pkgd.min.js"></script>
     <script>
         $(function () {
             $("#liEditorial").accordion({
