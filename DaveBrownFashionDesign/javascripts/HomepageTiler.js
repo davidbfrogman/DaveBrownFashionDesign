@@ -7,7 +7,7 @@
         corners: 1, // Corner roundness (0..1)
         rotate: 0, // The rotation offset
         direction: 1, // 1: clockwise, -1: counterclockwise
-        color: '#00FFFF', // #rgb or #rrggbb or array of colors
+        color: '#778899', // #rgb or #rrggbb or array of colors
         speed: 1, // Rounds per second
         trail: 60, // Afterglow percentage
         shadow: false, // Whether to render a shadow
@@ -25,8 +25,6 @@
     var $container = $('.divMasonryContainer');
     $container.hide();
     $container.imagesLoaded(function () {
-        var t = new Date().getTime(); while (new Date().getTime() < t + 2000);
-        
         spnSpinner.stop();
         $container.show();
         $container.masonry(
