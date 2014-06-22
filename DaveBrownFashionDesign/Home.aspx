@@ -2,7 +2,7 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <script src="javascripts/HomepageTiler.js"></script>
+    <script src="javascripts/HomepageTiler.js?52"></script>
     <style>
         .homePageImage { width: 200px;margin: 2px;float: right; }
     </style>

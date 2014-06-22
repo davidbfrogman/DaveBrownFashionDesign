@@ -26,11 +26,11 @@
     $container.hide();
     $container.imagesLoaded(function () {
         spnSpinner.stop();
-        $container.show();
+        $container.fadeIn();
         $container.masonry(
             {
                 columnWidth: 0,
                 itemSelector: '.homePageImage'
-            });
+            }).fadeIn();
     });
 });

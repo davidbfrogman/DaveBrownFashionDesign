@@ -43,8 +43,8 @@ namespace DaveBrownPhotography.Fashion
 
                 image.ID = "image-" + i.ToString();
 
-                image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
-                image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
+                //image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
+                //image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
                 divMasonryContainer.Controls.Add(image);
                 i++;
             }
