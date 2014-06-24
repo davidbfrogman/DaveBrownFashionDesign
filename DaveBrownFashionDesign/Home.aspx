@@ -42,6 +42,16 @@
         <p>
             Last up was Fashion. My love. My one true love. Oh if I could just shoot fashion all day that would make me happy. I can't imagine a world where I'm not shooting fashion. It's really where my passion lies. Fashion allows me to still shoot characters, only their my characters. They're the characters that I dream up. In clothes that I pick, and models that I pick, lighting that I choose, backdrops, post. It's all in my control. Whatever story I want to tell that week I can tell it. I still get to meet people, and interact with them, but at the end of the day it's my vision. It's the vision I create that will be the final image. Now I still need to keep my client in mind, but they hired me because they want me to produce my vision in a new incarnation. That's a powerful endorsement. We like what you've done creatively so do it again! That's awesome, and anytime I book a fashion client it feels like approval of what I'm doing with my work. 
         </p>
+        <h2>Editorial Photography</h2>
+        <p>
+           I have to say when I first started I didn't think I'd ever be an editorial photographer, but as time went on I wanted to shoot more editorials.  They are so interesting to me, because you have a chance to tell a story with your images.  At first I have to say I didn't have many stories to tell, but over time, I realized that I was telling a story, I just wasn't putting them into editorials like I should be.  
+
+           After a while i realized that I should work on more.  I started off working with just one model on a simple editorial about light.  She was so great at moving that I knew that I had to capture her movement.
+
+           From there it's been a rollercoaster of editorials.  I created one that was the story of two runaways.  Something that I always had in my head, initially though I simply didn't have the talent to pull off the shot that I had in my head.  Once I had the talent though it was game over.  
+
+            Since then I've done all sorts of different editorials.  Ones on film that I developed myself to spreads for major magazines.  And while those spreads are wildly nerve racking they certainly do push me into new and uncharted territory.   These shoots teach me that I still have a lot to learn with my photography and lots of new stories to tell with my photography.  Something I'm super excited to be doing. 
+        </p>
         <p>
             I shoots on location and at a professional photography studio located in Downtown Denver.
         </p>

@@ -3,7 +3,7 @@
 <asp:Content ContentPlaceHolderID="cphMain" runat="server">
 <form runat="server" id="myForm" class="ContactForm" style="width:700px;" >
 
-<div style="text-align:left; margin-top:70px;">
+<div style="text-align:left; margin-top:100px; margin-left: 20px;">
 <h2>Contact</h2>
 <div style="padding-left:3px;">
 <div>
