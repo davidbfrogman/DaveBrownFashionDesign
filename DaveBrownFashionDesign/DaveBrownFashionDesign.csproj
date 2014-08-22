@@ -315,6 +315,7 @@
     <Content Include="fonts\questrial-regular-webfont.eot" />
     <Content Include="fonts\questrial-regular-webfont.ttf" />
     <Content Include="fonts\questrial-regular-webfont.woff" />
+    <None Include="Properties\PublishProfiles\Dave Brown Photography New Hosting.pubxml" />
     <None Include="Properties\PublishProfiles\Dave Brown Photography Production.pubxml" />
     <None Include="Properties\PublishProfiles\Dave Brown Production.pubxml" />
   </ItemGroup>
