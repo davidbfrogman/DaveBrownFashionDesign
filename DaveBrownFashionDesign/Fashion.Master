@@ -99,10 +99,11 @@
 				    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
                         <div>
                             <ul>
-                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Firestarter-For-IMute-Magazine" title="Firestarter For IMute Magazine">Firestarter</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Wanderlust-For-Ellements-Magazine" title="Wanderlust for Ellements Magazine">Wanderlust</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lightdance-For-Fashion-Couture-Magazine" title="Lightdance for Fashion Couture Magazine">Lightdance</a></h3></li>
-                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Firestarter-For-IMute-Magazine" title="Firestarter For IMute Magazine">Firestarter</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Star-Collector-For-IMute-Magazine" title="Star Collector For IMute Magazine">Star Collector</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Milan-On-My-Lips-For-Raine-Magazine" title="Milan On My Lips For Raine Magazine">Milan On My Lips</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Can-I-Stay-A-While-For-Jute-Magazine" title="Can I stay a while for Jute Magazine">Can I stay a While</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Pale-Fire-For-Glacier-Magazine" title="Pale Fire for Glacier Magazine">Pale Fire</a></h3></li>
@@ -118,6 +119,7 @@
 				    <%--<li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>--%>
 				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
 				    <li><a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About</a></li>
+				    <li><a href="Denver-Photographer-FAQ.aspx" title="Frequently Asked Questions">FAQ</a></li>
 			    </ul>
                 <footer>
                 <ul class="links">

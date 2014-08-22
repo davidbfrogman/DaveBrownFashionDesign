@@ -70,6 +70,8 @@
     <Content Include="Controls\Menu.ascx" />
     <Content Include="Controls\QuickContact.ascx" />
     <Content Include="Controls\RotatingImageBanner.ascx" />
+    <Content Include="Denver-Photographer-FAQ.aspx" />
+    <Content Include="Denver-Senior-Portrait-Photographer.aspx" />
     <Content Include="Denver-Editorial-Photographer.aspx" />
     <Content Include="Engagement-Photography.aspx" />
     <Content Include="Denver-Band-Music-Photographer.aspx" />
@@ -171,6 +173,20 @@
     </Compile>
     <Compile Include="Controls\RotatingImageBanner.ascx.designer.cs">
       <DependentUpon>RotatingImageBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Photographer-FAQ.aspx.cs">
+      <DependentUpon>Denver-Photographer-FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Photographer-FAQ.aspx.designer.cs">
+      <DependentUpon>Denver-Photographer-FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Senior-Portrait-Photographer.aspx.cs">
+      <DependentUpon>Denver-Senior-Portrait-Photographer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Senior-Portrait-Photographer.aspx.designer.cs">
+      <DependentUpon>Denver-Senior-Portrait-Photographer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Denver-Editorial-Photographer.aspx.cs">
       <DependentUpon>Denver-Editorial-Photographer.aspx</DependentUpon>
