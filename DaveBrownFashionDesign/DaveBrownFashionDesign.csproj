@@ -288,7 +288,6 @@
     <Compile Include="Utilities\Randomizer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".htaccess" />
     <Content Include="About-Denver-Photographer.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Fashion-Photographer-Denver.aspx" />
