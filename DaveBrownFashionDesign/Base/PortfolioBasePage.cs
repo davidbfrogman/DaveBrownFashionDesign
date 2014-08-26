@@ -50,8 +50,8 @@ namespace DaveBrownPhotography
                 image.Style.Add("margin", "70px 10px 20px 0px");
                 image.ID = "image-" + i.ToString();
 
-                image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
-                image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
+                //image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
+                //image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
                 listItem.Controls.Add(image);
                 imageHolderControl.Controls.Add(listItem);
                 i++;

@@ -2,10 +2,6 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <script src="javascripts/HomepageTiler.js?52"></script>
-    <style>
-        .homePageImage { width: 200px;margin: 2px;float: right; }
-    </style>
     <div style="position:fixed; top:200px; left: 300px; width: 100px; height:100px;" id="divSpinner"></div>
     <div runat="server" id="divMasonryContainer" class="divMasonryContainer"/>
     <div style="position: absolute; top: 1500px; left: 300px;">
@@ -55,4 +51,18 @@ Wellington, Westminster, and other Colorado areas.
         </p>
     </div>
 <%--<dbp:AffiliateLinks ID="links" runat="server" />--%>
+    <script>
+        $(function () {
+            // initialize Masonry after all images have loaded 
+            var $container = $('.divMasonryContainer');
+            $container.imagesLoaded(function () {
+                $container.fadeIn();
+                $container.masonry(
+                    {
+                        columnWidth: 0,
+                        itemSelector: '.homePageImage'
+                    }).fadeIn();
+            });
+        });
+    </script>
 </asp:Content>
