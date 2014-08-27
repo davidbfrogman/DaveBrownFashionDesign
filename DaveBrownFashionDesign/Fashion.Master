@@ -4,7 +4,7 @@
 
 <html>
 <head id="Head1" runat="server">
-    <title runat="server" id="title">Denver Photographer | Engagement | Denver Portrait Photographer | Commercial | Fashion </title>
+    <title runat="server" id="title">Denver Photographer | Portrait | Commercial | Fashion | Editorial </title>
     <meta name="keywords" runat="server" id="metaKeywords" content="denver photographer, denver engagement photographer, denver portrait photographer, engagement, senior, commercial, colorado, family, fashion"/>
     <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown is a Portrait Photographer who specializes in Engagement, Senior Portraits, Commercial, and Fashion Photography." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -18,11 +18,12 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<!-- Stylesheets: Production -->
 
-		<link rel="stylesheet" href="../stylesheets/styles.css?84">
+		<link rel="stylesheet" href="../stylesheets/styles.min.css">
 		<!-- Skin Stylesheet -->
-		<link rel="stylesheet" href="../skin/skin.css?84">
+		<link rel="stylesheet" href="../skin/skin.min.css">
 		<style>
-   
+        .homePageImage { width: 200px;margin: 2px;float: right; }
+
 		  /* Custom Icons */  
 	    .links {
         width: 260px;
@@ -45,9 +46,6 @@
         {
             outline:none;
         }
-
-        /*.links a[href*=twitter] { background: url('../skin/images/twitter.png'); }
-        .links a[href*=facebook] { background: url('../skin/images/facebook.png'); }*/
 		</style>
 		
 	<!-- Internet Exploder -->
@@ -55,29 +53,6 @@
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if IE 7]><link href="../stylesheets/ie7.css" media="screen" rel="stylesheet" /><![endif]-->
 	<!--[if IE]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
-    <script>
-
-        var session_id = "lr38tfq32p8tandh01rkle0cr2";
-        var page = "index";
-        var section = "";
-        var tag = "index";
-        var overlayWidth = 1000;
-    </script>
-    <%--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?84"></script>--%>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?84"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js?84"></script>
-    <script src="../javascripts/scripts.js?84"></script>
-    <script src="javascripts/imagesloaded.pkgd.min.js"></script>
-    <script src="javascripts/masonry.pkgd.min.js"></script>
-    <script src="javascripts/spin.min.js"></script>
-    <script>
-        $(function () {
-            $("#liEditorial").accordion({
-                collapsible: true,
-                active: false
-            });
-        });
-  </script>
 </head>
 <body id="pageindex2" class="left" runat="server">
     <div id="layout">
@@ -99,10 +74,11 @@
 				    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
                         <div>
                             <ul>
-                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Firestarter-For-IMute-Magazine" title="Firestarter For IMute Magazine">Firestarter</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Wanderlust-For-Ellements-Magazine" title="Wanderlust for Ellements Magazine">Wanderlust</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lightdance-For-Fashion-Couture-Magazine" title="Lightdance for Fashion Couture Magazine">Lightdance</a></h3></li>
-                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Firestarter-For-IMute-Magazine" title="Firestarter For IMute Magazine">Firestarter</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Star-Collector-For-IMute-Magazine" title="Star Collector For IMute Magazine">Star Collector</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Milan-On-My-Lips-For-Raine-Magazine" title="Milan On My Lips For Raine Magazine">Milan On My Lips</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Can-I-Stay-A-While-For-Jute-Magazine" title="Can I stay a while for Jute Magazine">Can I stay a While</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Pale-Fire-For-Glacier-Magazine" title="Pale Fire for Glacier Magazine">Pale Fire</a></h3></li>
@@ -115,9 +91,10 @@
                     <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
 				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
 				    <li>&nbsp;</li>
-				    <%--<li><a href="BlogInstall/index.php" title="Denver Fashion Photography Blog">Blog</a></li>--%>
+				    <%--<li><a href="http://blog.davebrownphotography.com" title="Denver Fashion Photography Blog">Blog</a></li>--%>
 				    <li><a href="Contact.aspx" title="Contact Denver Photographer">Contact</a></li>
 				    <li><a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About / Services</a></li>
+				    <li><a href="Denver-Photographer-FAQ.aspx" title="Frequently Asked Questions">FAQ</a></li>
 			    </ul>
                 <footer>
                 <ul class="links">
@@ -145,26 +122,47 @@
 
 	    </header>
         <div id="scrollBarHelper" runat="server" style="position:fixed; top:auto; bottom:10px; left:20px;">Use the scrollbar here --></div>
+        <!-- Javascripts -->
+        <script>
+            var session_id = "lr38tfq32p8tandh01rkle0cr2";
+            var page = "index";
+            var section = "";
+            var tag = "index";
+            var overlayWidth = 1000;
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script src="../javascripts/scripts.min.js"></script>
+        <script src="javascripts/imagesloaded.pkgd.min.js"></script>
+        <script src="javascripts/masonry.pkgd.min.js"></script>
+
+        <script>
+            /* Custom Scripts  */
+            //rsn.uniformHeight(530);
+            $(document).ready(function () { rsn.resizeLayout(); });
+        </script>
+        <script>
+            $(function () {
+                $("#liEditorial").accordion({
+                    collapsible: true,
+                    active: false
+                });
+            });
+        </script>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-9571004-2']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
     	<div id="content">
             <asp:ContentPlaceHolder ID="cphMain" runat="server" />
     	</div>
 </div>
-<!-- Javascripts -->
-<script>
-/* Custom Scripts  */
-    //rsn.uniformHeight(530);
-    $(document).ready(function () { rsn.resizeLayout(); });
-</script>
-<script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-9571004-2']);
-    _gaq.push(['_trackPageview']);
-    (function () {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
 </body>
 </html>

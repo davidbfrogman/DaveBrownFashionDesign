@@ -70,11 +70,14 @@
     <Content Include="Controls\Menu.ascx" />
     <Content Include="Controls\QuickContact.ascx" />
     <Content Include="Controls\RotatingImageBanner.ascx" />
+    <Content Include="Denver-Photographer-FAQ.aspx" />
+    <Content Include="Denver-Senior-Portrait-Photographer.aspx" />
     <Content Include="Denver-Editorial-Photographer.aspx" />
     <Content Include="Engagement-Photography.aspx" />
     <Content Include="Denver-Band-Music-Photographer.aspx" />
     <Content Include="Denver-Food-Photographer.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="javascripts\scripts.min.js" />
     <Content Include="javascripts\HomepageTiler.js" />
     <Content Include="javascripts\imagesloaded.pkgd.min.js" />
     <Content Include="javascripts\masonry.pkgd.min.js" />
@@ -84,6 +87,7 @@
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="javascripts\scripts.js" />
+    <Content Include="skin\skin.min.css" />
     <Content Include="skin\images\bg-body.jpg" />
     <Content Include="skin\images\bg-content.jpg" />
     <Content Include="skin\images\bg-footer-bleed.jpg" />
@@ -96,13 +100,16 @@
     <Content Include="skin\images\loading.gif" />
     <Content Include="skin\images\twitter.png" />
     <Content Include="skin\skin.css" />
+    <Content Include="stylesheets\styles.min.css" />
     <Content Include="stylesheets\ie7.css" />
     <Content Include="stylesheets\styles.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="XML\AffiliateURL.xml" />
-    <Content Include="XML\Editorials.xml" />
+    <Content Include="XML\Editorials.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="XML\MenuLevel1.xml" />
     <Content Include="XML\MenuLevel2.xml" />
     <Content Include="XML\Menus.xml" />
@@ -169,6 +176,20 @@
     </Compile>
     <Compile Include="Controls\RotatingImageBanner.ascx.designer.cs">
       <DependentUpon>RotatingImageBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Photographer-FAQ.aspx.cs">
+      <DependentUpon>Denver-Photographer-FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Photographer-FAQ.aspx.designer.cs">
+      <DependentUpon>Denver-Photographer-FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Senior-Portrait-Photographer.aspx.cs">
+      <DependentUpon>Denver-Senior-Portrait-Photographer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Senior-Portrait-Photographer.aspx.designer.cs">
+      <DependentUpon>Denver-Senior-Portrait-Photographer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Denver-Editorial-Photographer.aspx.cs">
       <DependentUpon>Denver-Editorial-Photographer.aspx</DependentUpon>
@@ -270,7 +291,6 @@
     <Compile Include="Utilities\Randomizer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".htaccess" />
     <Content Include="About-Denver-Photographer.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Fashion-Photographer-Denver.aspx" />
@@ -297,6 +317,7 @@
     <Content Include="fonts\questrial-regular-webfont.eot" />
     <Content Include="fonts\questrial-regular-webfont.ttf" />
     <Content Include="fonts\questrial-regular-webfont.woff" />
+    <None Include="Properties\PublishProfiles\Dave Brown Photography New Hosting.pubxml" />
     <None Include="Properties\PublishProfiles\Dave Brown Photography Production.pubxml" />
     <None Include="Properties\PublishProfiles\Dave Brown Production.pubxml" />
   </ItemGroup>

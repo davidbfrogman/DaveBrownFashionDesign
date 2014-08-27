@@ -2,13 +2,9 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <script src="javascripts/HomepageTiler.js?52"></script>
-    <style>
-        .homePageImage { width: 200px;margin: 2px;float: right; }
-    </style>
     <div style="position:fixed; top:200px; left: 300px; width: 100px; height:100px;" id="divSpinner"></div>
     <div runat="server" id="divMasonryContainer" class="divMasonryContainer"/>
-    <div style="position: absolute; top: 1500px; left: 150px;">
+    <div style="position: absolute; top: 1500px; left: 300px;">
         <dbp:LatestBlogPosts runat="server" ID="latestBlogs" />
         <h2>Commercial Photography</h2>
         <p>
@@ -18,6 +14,7 @@
         <p>
             After that first client, I started taking portraits, and that's where I truly fell in love. I loved hearing peoples stories, and trying to capture those on film. It's not an easy task, or one that I take lightly. It can take a few moments to get to know someone or a whole session. Either way it's a valuable part of any shoot. Learning about the person allows you to capture something deeper in their person. It allows you to peer past whatever shell they have up, and capture that inner person.
         </p>
+        <h2><a href="Denver-Senior-Portrait-Photographer.aspx" title="Denver Senior Portrait Photographer">Senior Portraits</a></h2>
         <h2>Engagement Photography</h2>
         <p>
             After I cut my teeth on some portraits of some friends, I wanted to try my hand at more commercial portraiture. I started shooting engagements. I was so excited to capture people in one of their happiest moments. Now that's not to say everyone is happy on their engagement session. No quite the contrary. I think some people learn that marriage isn't going to be as easy as they think it might on their engagement shoot. It's stressful, girls want to look their best for the camera, and guys,... well most of them don't care. Which certainly plays into watching some interesting dynamics. Now my job as a photographer is to capture them in spite of their feelings at that particular moment. Sometimes it even works out for the best when couples make up on a shoot.
@@ -34,9 +31,7 @@
         <p>
             Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.  You can check out my commercial 
     photography work here
-            <li>
                 <h2><a href="Denver-Commercial-Photographer.aspx" title="Denver Commercial Photographer">Corporate Headshots</a></h2>
-            </li>
         </p>
         <h2>Fashion Photography</h2>
         <p>
@@ -66,4 +61,18 @@ Wellington, Westminster, and other Colorado areas.
         </p>
     </div>
 <%--<dbp:AffiliateLinks ID="links" runat="server" />--%>
+    <script>
+        $(function () {
+            // initialize Masonry after all images have loaded 
+            var $container = $('.divMasonryContainer');
+            $container.imagesLoaded(function () {
+                $container.fadeIn();
+                $container.masonry(
+                    {
+                        columnWidth: 0,
+                        itemSelector: '.homePageImage'
+                    }).fadeIn();
+            });
+        });
+    </script>
 </asp:Content>
