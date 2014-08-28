@@ -2,7 +2,6 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <div style="position:fixed; top:200px; left: 300px; width: 100px; height:100px;" id="divSpinner"></div>
     <div runat="server" id="divMasonryContainer" class="divMasonryContainer"/>
     <div style="position: absolute; top: 1500px; left: 300px;">
         <dbp:LatestBlogPosts runat="server" ID="latestBlogs" />
