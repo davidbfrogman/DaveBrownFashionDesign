@@ -87,6 +87,7 @@
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="javascripts\scripts.js" />
+    <Content Include="skin\images\instagram.png" />
     <Content Include="skin\skin.min.css" />
     <Content Include="skin\images\bg-body.jpg" />
     <Content Include="skin\images\bg-content.jpg" />
