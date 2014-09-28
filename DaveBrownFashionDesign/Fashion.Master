@@ -4,9 +4,9 @@
 
 <html>
 <head id="Head1" runat="server">
-    <title runat="server" id="title">Denver Photographer | Portrait | Commercial | Fashion | Editorial </title>
+    <title runat="server" id="title">Denver Photographer | Fashion | Portrait | Commercial | Editorial | Advertising  </title>
     <meta name="keywords" runat="server" id="metaKeywords" content="denver photographer, denver engagement photographer, denver portrait photographer, engagement, senior, commercial, colorado, family, fashion"/>
-    <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown is a Portrait Photographer who specializes in Engagement, Senior Portraits, Commercial, and Fashion Photography." />
+    <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown is a Portrait Photographer who specializes in Fashion, Editorial, Advertising, Commercial, and Engagement Photography." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Facebook Open Graph -->
 	<!-- <meta property="og:image" content=""> -->
