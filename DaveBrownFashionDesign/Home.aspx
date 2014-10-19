@@ -2,7 +2,7 @@
 <%@ Register Src="~/Controls/LatestBlogPosts.ascx" TagName="LatestBlogPosts" TagPrefix="dbp" %>
 <%@ Register Src="~/Controls/AffiliateLinks.ascx" TagName="AffiliateLinks" TagPrefix="dbp" %>
 <asp:Content runat="server" ContentPlaceHolderID="cphMain">
-    <div runat="server" id="divMasonryContainer" class="divMasonryContainer"/>
+    <div runat="server" id="divMasonryContainer" class="divMasonryContainer"  />
     <div style="position: absolute; top: 1500px; left: 300px;">
         <dbp:LatestBlogPosts runat="server" ID="latestBlogs" />
         <h2>Commercial Photography</h2>
@@ -27,10 +27,10 @@
             After I started shooting weddings I had the confidence to move my photography into other areas. The first up was food. Which I do love in it's own way. Now food doesn't have emotion, but it's nice to shoot something that doesn't move for a change. Normally I still get to do portraits when I shoot food, so I get to still hear the story behind the food. Sometimes the chef's are even more interesting than the food. They have back stories that are usually more interesting than a lot of people. One thing I've learned from taking portraits of chefs is that they had to work hard to get to the point where a professional photographer is taking their portraits. Basically the service industry is hard.
         </p>
         <h2>Corprate Headshots</h2>
+        <h2><a href="Denver-Commercial-Photographer.aspx" title="Denver Commercial Photographer">Corporate Headshots</a></h2>
         <p>
             Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.  You can check out my commercial 
     photography work here
-                <h2><a href="Denver-Commercial-Photographer.aspx" title="Denver Commercial Photographer">Corporate Headshots</a></h2>
         </p>
         <h2>Fashion Photography</h2>
         <p>
@@ -59,8 +59,14 @@ Wellington, Westminster, and other Colorado areas.
             Please feel free to <a href="Contact.aspx" rel="nofollow" title="Contact Denver Portrait Photographer">contact</a> me for my rates.
         </p>
     </div>
-<%--<dbp:AffiliateLinks ID="links" runat="server" />--%>
     <script>
+        //This will prevent the window from scrolling, it's a bit of a hack, seeing as how the 
+        //browser will jump, but I can't seem to figure out anything else in the short term.
+        //really what we should be doing is sizing the masonry container to 100% of the viewport, and turning off scrolling somehow.
+        $(window).scroll(function () {
+            scroll(0, 0);
+        });
+
         $(function () {
             // initialize Masonry after all images have loaded 
             var $container = $('.divMasonryContainer');
