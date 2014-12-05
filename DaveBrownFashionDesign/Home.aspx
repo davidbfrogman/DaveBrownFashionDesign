@@ -27,7 +27,7 @@
             After I started shooting weddings I had the confidence to move my photography into other areas. The first up was food. Which I do love in it's own way. Now food doesn't have emotion, but it's nice to shoot something that doesn't move for a change. Normally I still get to do portraits when I shoot food, so I get to still hear the story behind the food. Sometimes the chef's are even more interesting than the food. They have back stories that are usually more interesting than a lot of people. One thing I've learned from taking portraits of chefs is that they had to work hard to get to the point where a professional photographer is taking their portraits. Basically the service industry is hard.
         </p>
         <h2>Corprate Headshots</h2>
-        <h2><a href="Denver-Commercial-Photographer.aspx" title="Denver Commercial Photographer">Corporate Headshots</a></h2>
+        <h2><a href="Denver-Headshot-Photographer.aspx" title="Denver Headshot Photographer">Corporate Headshots</a></h2>
         <p>
             Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.  You can check out my commercial 
     photography work here
@@ -49,6 +49,8 @@
         <p>
             I shoots on location and at a professional photography studio located in Downtown Denver.
         </p>
+
+        <h2><a href="Denver-Commcercial-Photographer.aspx" title="Denver Commercial Photographer">You can also check out my commercial photography here</a></h2>
         <p>
             Also Serving: Arvada, Aurora, Avondale, Broomfield, Centennial, Denver,
 Englewood, Fort Collins, Golden, Greeley, Lafayette, Littleton, 

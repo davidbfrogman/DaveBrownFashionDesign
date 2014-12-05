@@ -28,7 +28,7 @@
         <h2>Corporate Headshots</h2>
         <p>
             Putting your best foot forward often involves having a killer headshot.  Something people can relate to, while at the same time showing a bit of personality.  I've been doing headshots,
-            and portraits for over 10 years now.  I have my own studio, or I can come to you.  Either way you'll get a fantastic headshot that will set you apart from your peers. 
+            and portraits for over 10 years now.  I have my own studio, or I can come to you.  Either way you'll get a fantastic headshot that make you stand out amongst the crowd. 
         </p>
         <h2>Engagement Photography</h2>
         <p>
@@ -55,12 +55,16 @@
      <p>
          Nationally and Internationally Published Photographer<br />
          Publications:<br />
-         Jute Magazine<br />
          Rhapsody Magazine for United Airlines<br />
-        Fashion Couture Magazine <br />
-        5280 <br />
-        Peppermint Mag <br />
+         5280 <br />
          Inked Girls Magazine <br />
+         Huf Magazine<br />
+         Modo Magazine<br />
+         Flannel Magazine<br />
+         IMute Magazine<br />
+         Jute Magazine<br />
+        Fashion Couture Magazine <br />
+        Peppermint Mag <br />
         Stilo Mag <br />
         La Damme Magazine <br />
         Pepple Magazine <br />
