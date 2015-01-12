@@ -46,17 +46,22 @@
 
             Since then I've done all sorts of different editorials.  Ones on film that I developed myself to spreads for major magazines.  And while those spreads are wildly nerve racking they certainly do push me into new and uncharted territory.   These shoots teach me that I still have a lot to learn with my photography and lots of new stories to tell with my photography.  Something I'm super excited to be doing. 
         </p>
+        <h2>Denver Modeling Agency</h2>
+        <p>
+            I also work with all the <b>major modeling agencies here in Denver</b>.  I'm an agency approved photographer in this area.  I've been getting killer shots for all the girls 
+            at these agencies for years.  You can see my work on the cover of most of the girls at the major ones.
+        </p>
+        <p>
+            When I started shooting for the agencies, I was mostly doing test work.  Now I'm one of the photographers these agencies go to on a regular basis.  Working with
+            all the different modeling agencies, and their booking agents has me more in tune with what a booking agent is looking for.  I can get you great shots
+            that will be used for comp cards, headshots, or your entire book.  It's taken me years to build up my relationships with the major modeling agencies in town,
+            something that I really do enjoy doing.
+        </p>
         <p>
             I shoots on location and at a professional photography studio located in Downtown Denver.
         </p>
 
         <h2><a href="Denver-Commcercial-Photographer.aspx" title="Denver Commercial Photographer">You can also check out my commercial photography here</a></h2>
-        <p>
-            Also Serving: Arvada, Aurora, Avondale, Broomfield, Centennial, Denver,
-Englewood, Fort Collins, Golden, Greeley, Lafayette, Littleton, 
-Longmont, Loveland, Pierce, Reunion, 
-Wellington, Westminster, and other Colorado areas.
-        </p>
         <p>
             Please feel free to <a href="Contact.aspx" rel="nofollow" title="Contact Denver Portrait Photographer">contact</a> me for my rates.
         </p>

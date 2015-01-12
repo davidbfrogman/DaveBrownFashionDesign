@@ -4,14 +4,14 @@
 
 <html>
 <head id="Head1" runat="server">
-    <title runat="server" id="title">Denver Photographer | Fashion | Portrait | Headshots | Editorial | Advertising  </title>
-    <meta name="keywords" runat="server" id="metaKeywords" content="denver photographer, denver engagement photographer, denver portrait photographer, engagement, senior, headshot, colorado, family, fashion"/>
-    <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown is a Portrait Photographer who specializes in Fashion, Editorial, Advertising, Commercial, and Engagement Photography." />
+    <title runat="server" id="title">Denver Photographer | Fashion | Headshots | Editorial | Advertising  </title>
+    <meta name="keywords" runat="server" id="metaKeywords" content="denver photographer, denver fashion photographer, denver engagement photographer, denver headshot photographer, engagement, headshot, colorado, fashion"/>
+    <meta name="description" runat="server" id="metaDescription" content="Denver Photographer Dave Brown specializes in Fashion, Headshots, Advertising, Commercial, and Engagement Photography." />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Facebook Open Graph -->
 	<!-- <meta property="og:image" content=""> -->
     <meta property="og:site_name" content="Dave Brown Photography">
-    <meta property="og:description" content="Denver Portrait Photographer Dave Brown">
+    <meta property="og:description" content="Denver Fashion Photographer Dave Brown">
 	<meta property="og:type" content="website">
     <meta property="og:url" content="http://www.davebrownphotography.com/">
     <link rel="publisher" href="https://plus.google.com/b/105787106666897628776/" />
@@ -63,7 +63,7 @@
                 </a>
                 <div id="location">
                     <span id="_address3" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="addressLocality">Denver</span> . San Francisco . NY
+                        <span itemprop="addressLocality">Denver</span> . Tokyo . NY
                     </span>
                 </div>
 		    </h1>
@@ -71,13 +71,18 @@
 			    <ul>
 				    <li><h2><a href="Denver-Fashion-Photographer.aspx" title="Denver Fashion Photographer">Fashion Book I</a></h2></li>
 				    <li><h2><a href="Fashion-Photographer-Denver.aspx" title="Fashion Photographer Denver">Fashion Book II</a></h2></li>
-				    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
+				    <li><h2><a href="Denver-Headshot-Photographer.aspx" title="Denver Headshot Photographer">Headshots</a></h2></li>
+                    <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
+				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
+                    <li id="liEditorial"><h2><a href="#" title="Denver Editorial Photographer">Editorial</a></h2>
                         <div  style="display:none;"> <!-- This display none is added so the accordian doesn't flicker open on the non editorial pages -->
                             <ul>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Firestarter-For-IMute-Magazine" title="Firestarter For IMute Magazine">Firestarter</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Wanderlust-For-Ellements-Magazine" title="Wanderlust for Ellements Magazine">Wanderlust</a></h3></li>
-                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lightdance-For-Fashion-Couture-Magazine" title="Lightdance for Fashion Couture Magazine">Lightdance</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Inheritance-For-Modo-Magazine" title="Inheritance for Modo Magazine">Inheritance</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Just-Let-Go-For-Modo-Magazine" title="Just Let Go for Modo Magazine">Just Let Go</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Star-Collector-For-IMute-Magazine" title="Star Collector For IMute Magazine">Star Collector</a></h3></li>
+                                <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lightdance-For-Fashion-Couture-Magazine" title="Lightdance for Fashion Couture Magazine">Lightdance</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Lindsey-Vonn-For-Rhapsody-Magazine" title="Lindsey Vonn for Rhapsody Magazine">Lindsey Vonn</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Milan-On-My-Lips-For-Raine-Magazine" title="Milan On My Lips For Raine Magazine">Milan On My Lips</a></h3></li>
                                 <li><h3><a href="Denver-Editorial-Photographer.aspx?Editorial-Name=Can-I-Stay-A-While-For-Jute-Magazine" title="Can I stay a while for Jute Magazine">Can I stay a While</a></h3></li>
@@ -87,9 +92,6 @@
                             </ul>
                         </div>
 				    </li>
-				    <li><h2><a href="Denver-Portrait-Photographer.aspx" title="Denver Portrait Photographer">Portrait</a></h2></li>
-                    <li><h2><a href="Denver-Engagement-Photographer.aspx" title="Denver Engagement Photographer">Engagement</a></h2></li>
-				    <li><h2><a href="Denver-Band-Music-Photographer.aspx" title="Denver Band Musician Photographer">Band</a></h2></li>
 				    <li><h2><a href="Denver-Editorial-Photographer-Tearsheets.aspx" title="Denver Editorial Photographer Tearsheets">Tears</a></h2></li>
 				    <li>&nbsp;</li>
 				    <li><a href="http://blog.davebrownphotography.com" title="Denver Fashion Photography Blog">Blog</a></li>

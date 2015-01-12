@@ -18,6 +18,7 @@ namespace DaveBrownPhotography
 {
     public partial class Editorial_Photography : PortfolioBasePage
     {
+
         public string EditorialName
         {
             get

@@ -58,7 +58,7 @@
 
                 <p>
                     <strong>Where are you located?</strong><br />
-                    My home base is in Denver, but I frequently travel to Miami, San Francisco,L.A., and NY.
+                    My home base is in Denver, but I frequently travel to Miami, Tokyo, L.A., and NY.
                 </p>
 
                 <p>

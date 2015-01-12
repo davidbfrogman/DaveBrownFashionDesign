@@ -24,7 +24,7 @@ namespace DaveBrownPhotography
         public virtual bool ShuffleFiles { get { return false; } }
 
         public abstract HtmlGenericControl BlogHolder { get; }
-
+        //h:\\root\\home\\davidbfrogman-001\\www\\davebrownphotography\\Images\\Fashion
         protected virtual void Page_Load(object sender, EventArgs e)
         {
             DirectoryInfo di = new DirectoryInfo(Server.MapPath(String.Format("~/Images/{0}", ImageDirectory)));
@@ -39,9 +39,6 @@ namespace DaveBrownPhotography
             int i = 1;
             foreach (FileInfo fi in files)
             {
-                //				    <li style="max-width: none; ">
-				//	    <img src="http://davebrownphotog2.22slides.com/content/2934_image_91653.jpg" alt="Portfolio Book I - Dave Brown Photography">
-				//    </li>
                 HtmlGenericControl listItem = new HtmlGenericControl("li");
                 listItem.Style.Add("max-width", "none");
 
@@ -51,7 +48,7 @@ namespace DaveBrownPhotography
                 image.ID = "image-" + i.ToString();
 
                 image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
-                //image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
+                //image.Attributes.Add("title", di.FullName);
                 listItem.Controls.Add(image);
                 imageHolderControl.Controls.Add(listItem);
                 i++;
