@@ -30,7 +30,8 @@
         <h2><a href="Denver-Headshot-Photographer.aspx" title="Denver Headshot Photographer">Corporate Headshots</a></h2>
         <p>
             Then I started getting more business clients. People who wanted head shots for their linkedin profile. Really interesting people. Some of them are just moving up, some of them have been at the top for years. It's always interesting seeing the different personalities that come when you've been running major companies. Sometimes shy in front of the camera, sometimes gruff, sometimes warmer than you would think. See what I mean I love hearing peoples stories.  You can check out my commercial 
-    photography work here
+    photography work here.  I've always actually loved having these kinds of business clients.  They can turn out to be great contacts, combined with the fact that they're just generally cool and interesting people.  I've shot everyone from CEO's to CFO's, and oil tycoons and everything in between.  I do actually really love taking someone who doesn't think they're very good in front of a camera, and taking a beautiful photograph of them, and showing them how awesome they can truly be.  These people are my bread 
+            and butter.  They work very hard at their jobs, and I get to show off their best side.  I've been doing headshots since I can remember, and I couldn't imagine a better way to interact with people around town. 
         </p>
         <h2>Fashion Photography</h2>
         <p>
