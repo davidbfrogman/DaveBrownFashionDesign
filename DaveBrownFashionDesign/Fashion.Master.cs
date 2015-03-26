@@ -65,7 +65,6 @@ namespace DaveBrownPhotography.Fashion
         {
             get
             {
-                int i = 0;
                 return this.title.Text;
             }
             set

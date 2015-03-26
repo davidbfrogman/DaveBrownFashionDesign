@@ -33,6 +33,11 @@
     photography work here.  I've always actually loved having these kinds of business clients.  They can turn out to be great contacts, combined with the fact that they're just generally cool and interesting people.  I've shot everyone from CEO's to CFO's, and oil tycoons and everything in between.  I do actually really love taking someone who doesn't think they're very good in front of a camera, and taking a beautiful photograph of them, and showing them how awesome they can truly be.  These people are my bread 
             and butter.  They work very hard at their jobs, and I get to show off their best side.  I've been doing headshots since I can remember, and I couldn't imagine a better way to interact with people around town. 
         </p>
+        <p>
+            I also work with major corporations and brands creating the iconic images you see on major magazines.  I can put together a shoot that will make your publication truly stand out.
+            You can check out my <a href="Denver-Corporate-Headshot-Photographer.aspx" title="Denver Headshot Photographer">Corporate Headshots</a> here.  These will give you a better idea
+            of the many styles that I can shoot.  You'll see everything from actor shots to major brand CEO and executive portraits.
+        </p>
         <h2>Fashion Photography</h2>
         <p>
             Last up was Fashion. My love. My one true love. Oh if I could just shoot fashion all day that would make me happy. I can't imagine a world where I'm not shooting fashion. It's really where my passion lies. Fashion allows me to still shoot characters, only their my characters. They're the characters that I dream up. In clothes that I pick, and models that I pick, lighting that I choose, backdrops, post. It's all in my control. Whatever story I want to tell that week I can tell it. I still get to meet people, and interact with them, but at the end of the day it's my vision. It's the vision I create that will be the final image. Now I still need to keep my client in mind, but they hired me because they want me to produce my vision in a new incarnation. That's a powerful endorsement. We like what you've done creatively so do it again! That's awesome, and anytime I book a fashion client it feels like approval of what I'm doing with my work. 

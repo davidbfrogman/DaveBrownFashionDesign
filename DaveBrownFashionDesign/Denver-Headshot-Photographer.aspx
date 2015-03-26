@@ -36,6 +36,9 @@ CodeBehind="Denver-Headshot-Photographer.aspx.cs" Inherits="DaveBrownPhotography
     <p>
         Being a <b>Denver Headshot Photographer</b> is about more than just taking a picture, it's about showing off the best parts of you.  
     </p>
+     <p>
+        You can check out my portfolio of <a href="Denver-Corporate-Headshot-Photographer.aspx" title="Corporate Headshots">Corporate Headshots</a> here.
+    </p>
 </div>
 <div id="divBlogHolder" runat="server" />
 </asp:Content>
