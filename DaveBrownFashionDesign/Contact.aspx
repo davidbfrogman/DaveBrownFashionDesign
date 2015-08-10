@@ -12,8 +12,8 @@
     <div>email. info@davebrownp<span style="display:none; visibility:hidden;">x</span>hotography.com<br /></div>
     <br />
     <div>Studio:</div>
-    <div>1201 Santa Fe Drive</div>
-    <div>Denver, CO 80204</div>
+    <div>12364 W Alameda Pkwy #125</div>
+    <div>Lakewood, CO 80228</div>
 </div>
 
 <div style="padding-top:15px;">
