@@ -66,6 +66,10 @@
         <p>
             I shoots on location and at a professional photography studio located in Downtown Denver.
         </p>
+        <p>
+            If you're looking for a fantastic<a href="Denver-Food-Photographer.aspx" title="Denver Food Photographer"> Denver Food Photographer</a> you should check out my food portfolio.  I starting shooting it because I always loved cooking and couldn't imagine 
+            a better way to integrate my two passions of food and cooking and photography
+        </p>
 
         <h2><a href="Denver-Commcercial-Photographer.aspx" title="Denver Commercial Photographer">You can also check out my commercial photography here</a></h2>
         <p>

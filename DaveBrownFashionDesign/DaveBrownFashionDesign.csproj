@@ -70,6 +70,7 @@
     <Content Include="Controls\Menu.ascx" />
     <Content Include="Controls\QuickContact.ascx" />
     <Content Include="Controls\RotatingImageBanner.ascx" />
+    <Content Include="Denver-Editorial-Portrait-Photographer.aspx" />
     <Content Include="Denver-Editorial-Photographer-Tearsheets.aspx" />
     <Content Include="Denver-Corporate-Headshot-Photographer.aspx" />
     <Content Include="Denver-Photographer-FAQ.aspx" />
@@ -180,6 +181,13 @@
     </Compile>
     <Compile Include="Controls\RotatingImageBanner.ascx.designer.cs">
       <DependentUpon>RotatingImageBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Denver-Editorial-Portrait-Photographer.aspx.cs">
+      <DependentUpon>Denver-Editorial-Portrait-Photographer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Denver-Editorial-Portrait-Photographer.aspx.designer.cs">
+      <DependentUpon>Denver-Editorial-Portrait-Photographer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Denver-Editorial-Photographer-Tearsheets.aspx.cs">
       <DependentUpon>Denver-Editorial-Photographer-Tearsheets.aspx</DependentUpon>

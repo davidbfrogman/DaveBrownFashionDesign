@@ -36,8 +36,8 @@ namespace DaveBrownPhotography
 				{
 					MailMessage email = new MailMessage(txtEmail.Text
 																	 , "info@davebrownphotography.com"
-                                                                     , "[" + txtName.Text + "]" + "[" + txtEmail.Text + "]" + txtSubject.Text
-																	 , txtMessage.Text);
+                                                                     , "[" + txtName.Text + "]" + "[" + txtEmail.Text + "]" + "Budget: " + txtBudget.Text 
+																	 ,  txtMessage.Text);
                     email.ReplyToList.Add(new MailAddress(txtEmail.Text));
 
 					System.Net.Mail.SmtpClient smtpClient = new SmtpClient(System.Configuration.ConfigurationManager.AppSettings["SmtpServer"],587);

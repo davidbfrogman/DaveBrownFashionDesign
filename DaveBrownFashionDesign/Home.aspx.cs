@@ -45,7 +45,10 @@ namespace DaveBrownPhotography.Fashion
 
                 //image.AlternateText = keywordPhrases.GetRandomKeywordPhrase();
                 //image.Attributes.Add("title", keywordPhrases.GetRandomKeywordPhrase());
-                divMasonryContainer.Controls.Add(image);
+                HtmlAnchor link = new HtmlAnchor();
+                link.Attributes.Add("href","Denver-Fashion-Photographer.aspx");
+                link.Controls.Add(image);
+                divMasonryContainer.Controls.Add(link);
                 i++;
             }
         }

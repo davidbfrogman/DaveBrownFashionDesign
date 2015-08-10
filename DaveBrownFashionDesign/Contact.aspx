@@ -12,13 +12,13 @@
     <div>email. info@davebrownp<span style="display:none; visibility:hidden;">x</span>hotography.com<br /></div>
     <br />
     <div>Studio:</div>
-    <div>3501 Wazee Street</div>
-    <div>Denver, CO 80216</div>
+    <div>1201 Santa Fe Drive</div>
+    <div>Denver, CO 80204</div>
 </div>
 
 <div style="padding-top:15px;">
 <br />
-<span runat="server" id="spnFeelFree" >Feel free to send me a little note.  I would love to hear from you!<br /></span>
+<span runat="server" id="spnFeelFree" >Feel free to send me a little note.  I would love to hear from you! Be Sure to include some details about what kind of shoot your looking for.<br /></span>
 <br />
    <table runat="server" id="tblSendNote" class="Contact">
         <tr>
@@ -33,9 +33,9 @@
             <asp:RegularExpressionValidator runat="server" ID="regEmail" ControlToValidate="txtEmail" ErrorMessage="Please enter a valid email address." ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" /></td>
         </tr>
         <tr>
-            <td>Subject:</td>
-            <td><asp:TextBox runat="server" ID="txtSubject" Width="350"/></td>
-            <td><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtSubject" ErrorMessage="*" /></td>
+            <td>Budget:</td>
+            <td><asp:TextBox runat="server" ID="txtBudget" Width="350"/></td>
+            <td><asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtBudget" ErrorMessage="*" /></td>
         </tr>
         <tr>
             <td valign="top">Message:</td>

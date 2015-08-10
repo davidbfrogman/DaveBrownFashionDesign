@@ -76,22 +76,22 @@ namespace DaveBrownPhotography {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator regEmail;
         
         /// <summary>
-        /// txtSubject control.
+        /// txtBudget control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSubject;
+        protected global::System.Web.UI.WebControls.TextBox txtBudget;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// RequiredFieldValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
         
         /// <summary>
         /// txtMessage control.
