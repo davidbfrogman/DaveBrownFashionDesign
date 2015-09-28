@@ -75,6 +75,7 @@
         <p>
             Please feel free to <a href="Contact.aspx" rel="nofollow" title="Contact Denver Portrait Photographer">contact</a> me for my rates.
         </p>
+        <a href="About-Denver-Photographer.aspx" title="About Denver Photographer Dave Brown">About / Services</a>
     </div>
     <script>
         //This will prevent the window from scrolling, it's a bit of a hack, seeing as how the 
